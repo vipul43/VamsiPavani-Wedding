@@ -18,6 +18,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Wishing you a lifetime of love and happiness";
+    document.getElementById("headline").innerHTML = "Wishing you a lifetime of love and happiness";
+    document.getElementById("countdown").innerHTML = "";
   }
 }, 1000);
